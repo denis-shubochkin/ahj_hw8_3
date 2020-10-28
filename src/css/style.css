@@ -1,0 +1,139 @@
+body {
+  color: #000000;
+  background: linear-gradient( #bbb, transparent 1px), linear-gradient( 90deg, #bbb, transparent 1px);
+  background-size: 15px 15px;
+  background-position: center center;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.instances-form {
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 7px;
+  margin-left: 50px;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.instances-header {
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.instances-list {
+  overflow-y: auto;
+  max-height: 250px;
+}
+
+.instance {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 95%;
+  height: 80px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  margin-bottom: 7px;
+}
+
+.status-block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 120px;
+  justify-content: space-between;
+}
+
+.status-circle {
+  width: 17px;
+  height: 17px;
+}
+.actions-block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100px;
+  justify-content: space-between;
+}
+
+.pause-but {
+  display: none;
+  border: none;
+  outline: none;
+  background-image: url(../pic/pause.png);
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.start-but {
+  border: none;
+  outline: none;
+  background-image: url(../pic/start.png);
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.delete-but {
+  border: none;
+  outline: none;
+  background-image: url(../pic/stop.png);
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+.new-instance {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: underline;
+  background-color: white;
+  border: none;
+  outline: none;
+  display: block;
+  cursor: pointer;
+}
+
+.worklog-form {
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 7px;
+  margin-left: 50px;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.log-header {
+  text-align: left;
+  margin-bottom: 7px;
+}
+
+.worklog {
+  overflow-y: auto;
+  max-height: 280px;
+}
+
+.log-element {
+  font-size: small;
+  width: 97%;
+  height: 60px;
+  margin-bottom:10px;
+}
